@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: Sora;
+}
+.herointro{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+.brand{
+    margin-left: 15px;
+    background: linear-gradient(to bottom, #959da8, #013A8B);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 20px 0 0;
+}
+select{
+    border: none;
+    font-family: Sora;
+    color: #013A8B;
+    font-weight: 500;
+}
+.navwrapper{
+    display: flex;
+}
+.navButtons{
+    display: flex;
+    padding: 10px;
+    margin: auto 30px auto 25px;
+
+}
+.btnname{
+    color: #013A8B;
+    background-color: #fff;
+    border: #013A8B solid 2px;
+    font-family: Sora;
+    padding: 12px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 12px;
+}
+.btnlogo{
+    color: #013A8B;
+    border: none;
+    background-color: #fff;
+    padding: 12px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 12px;
+    margin: 0 12px 0 0;
+}
+li{
+    padding: 7px;
+    color: #013A8B;
+    font-weight: 500;
+}
+
+/* hero section */
+.anime{
+    display: flex;
+    color: white;
+    padding: 15px;
+}
+.herosection{
+    background-color: #013A8B;
+    color: white;
+}
+.herosearch{
+    display: flex;
+}
+.countrycard{
+    width: 370px;
+}
+.countryimg{
+    max-width: 380px;
+    width: 400px;
+}
+.countryname{
+    margin:2px 10px 10px 150px
+}
+
+/* FEATURED SECTION */
+.featured{
+    background-color: #F2F3F7;
+}
+
+.parentcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flagcontent{
+
+
+}
+.circle{
+    background-color: #fff;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 100;
+    margin: 20px;
+    
+}
+
+/* .flagcontainer{
+    width: 95px;
+    background-color: blue;
+    height: 95px;
+    border-radius: 50%;
+   
+} */
+.flagImg{
+    position: relative;
+    left: 15px;
+    top:28px;
+}
+/* 
+horizontal scroll */
+/* App.css */
+
+.horizontal-scroll-container {
+    width: 100%;
+    
+    overflow-x:scroll; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+
+  }
+  
+  .scroll-content {
+    display: inline-block; /* Make the content scroll horizontally */
+  }
+  
+  .item {
+    display: inline-block;
+    width: 500px; /* Set width for each item */
+    height: 500px; /* Set height for each item */
+    background-color: #ccc; /* Add background color for visibility */
+    margin-right: 20px; /* Add some margin between items */
+  }
+  
