@@ -1,21 +1,31 @@
-import { useEffect ,useState} from 'react';
+import { useEffect, useState } from 'react';
 import Numanimation from './Numanimation';
 import MarqueeImg from './MarqueeImg';
 import Button from './Button';
+import { MdHeight } from 'react-icons/md';
 
 
 
 const Herosection = (Props) => {
-   
-    
+ const searchstyle={
+    color:"white",
+    backgroundColor:"#013a8b",
+    width:"150px",
+    height:"60px",
+    marginLeft:"30px"
+
+ }
+
     return (
-        <div className='herosection' style={{margin:0, padding:0}} >
-            <h1 className='herointro'>Walking every step of the way with you to Global Success</h1>
-            <div className="anime" >
-            <h1><Numanimation finalValue={650}/></h1><h3>Universities</h3>
-            <h1><Numanimation finalValue={8966}/></h1><h3>Programs</h3>
-            <h1><Numanimation finalValue={8}/></h1><h3>Countries</h3>
-            </div>   
+        <div className='herosection' style={{ margin: 0, padding: 0 }} >
+            <h1 className='herointro'>Walking every step of the way with <br /> you to Global Success</h1>
+            <div className="animewrapper">
+                <div className="anime" >
+                     <h1><Numanimation finalValue={650} /></h1><h4 style={{ paddingLeft: '10px' }}>Universities</h4><div className='line'></div>
+                    <h1><Numanimation finalValue={100} /></h1><h4 style={{ paddingLeft: '10px' }}>Programs</h4><div className='line'></div>
+                    <h1><Numanimation finalValue={8} /></h1><h4 style={{ paddingLeft: '10px' }}>Countries</h4>
+                </div>
+            </div>
             <div className='herosearch'>
                 <select name="" id="">
                     <option value="">USA</option>
@@ -26,11 +36,11 @@ const Herosection = (Props) => {
                     <option value="">Ireland</option>
                     <option value="">France</option>
                     <option value="">Germany</option>
-                </select>
+                </select><div style={{height:"90px",width:"1px",backgroundColor:"gray"}}></div>
                 <select name="" id="" placeholder="search country">
                     <option value="">Masters</option>
                     <option value="">Postgraduate Certificate</option>
-                </select>
+                </select><div style={{height:"90px",width:"1px",backgroundColor:"gray"}}></div>
                 <select name="" id="">
                     <option value="">Aerospace Engineering </option>
                     <option value="">Architecture</option>
@@ -53,12 +63,12 @@ const Herosection = (Props) => {
                     <option value="">LAW</option>
                     <option value="">Finance</option>
                 </select>
-                <Button btnn='Search'/>
+                <Button btnn='Search' style={searchstyle}/>
             </div>
             <div className="mar">
-            <MarqueeImg/>
+                <MarqueeImg />
             </div>
-           
+
         </div>
     );
 };

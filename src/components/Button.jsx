@@ -4,7 +4,7 @@ import App from '../App.css';
 const Button = (props) => {
     return (
         <div>
-            <button className='btnname'> {props.btnname}{props.btnn} </button>
+            <button className='btnname' style={props.style} > {props.btnname}{props.btnn} </button>
         </div>
     );
 };

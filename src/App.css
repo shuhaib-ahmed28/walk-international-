@@ -5,7 +5,9 @@ body{
     font-family: Sora;
 }
 .herointro{
-    display: none;
+    /* display: none; */
+    margin: 0;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -68,16 +70,49 @@ li{
 
 /* hero section */
 .anime{
+    height: 42px;
+    width: 750px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    padding: 15px;
+    padding: 3px;
+    border-radius:10px;
+    background-color: #013A8B;
+    border: 2px solid #06a8ea;
+    /* border-image: linear-gradient(270deg, rgb(3,76,181)0%,rgb(6,176,239)35%,rgb(3,76,181)100%); */
+}
+
+.animewrapper{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} 
+.anime>h1{
+    padding: 0 0 0 20px;
+}
+.anime>h4{
+    padding: 0 12px ;
 }
 .herosection{
     background-color: #013A8B;
     color: white;
+    height: 100vh;
+}
+.line{
+    width: 1px;
+    height: 40px;
+    background-color: #0284c7;
 }
 .herosearch{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 800px;
+    background-color: white;
+    border-radius: 15px;
+    border: #0284c7 2px solid;
 }
 .countrycard{
     width: 370px;
@@ -99,11 +134,6 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.flagcontent{
-
-
 }
 .circle{
     background-color: #fff;

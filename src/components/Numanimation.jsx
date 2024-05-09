@@ -9,7 +9,7 @@ const Numanimation = ({ finalValue }) => {
             } else {
                 clearInterval(intervalid);
             }
-        }, 0.001)
+        }, 1)
         return () => clearInterval(intervalid)
     }, [Number, finalValue])
 
