@@ -5,7 +5,6 @@ import Button from './Button';
 import { MdHeight } from 'react-icons/md';
 
 
-
 const Herosection = (Props) => {
  const searchstyle={
     color:"white",
@@ -25,7 +24,9 @@ const Herosection = (Props) => {
                     <h1><Numanimation finalValue={100} /></h1><h4 style={{ paddingLeft: '10px' }}>Programs</h4><div className='line'></div>
                     <h1><Numanimation finalValue={8} /></h1><h4 style={{ paddingLeft: '10px' }}>Countries</h4>
                 </div>
+                <h1>shuhauh</h1>
             </div>
+            <div className='searchsection'>
             <div className='herosearch'>
                 <select name="" id="">
                     <option value="">USA</option>
@@ -64,6 +65,7 @@ const Herosection = (Props) => {
                     <option value="">Finance</option>
                 </select>
                 <Button btnn='Search' style={searchstyle}/>
+            </div>
             </div>
             <div className="mar">
                 <MarqueeImg />
