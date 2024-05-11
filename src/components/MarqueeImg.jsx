@@ -8,19 +8,19 @@ const MarqueeImg = () => {
             <Marquee loop={100}>
                 <div style={{display:'flex'}}>
                     {
-                        marquee.map((img) => {
+                        marquee.map((img , index) => {
                             return (
                                 <div  >
-                                    <img src={img} alt="" width='180px'height='60px' style={{padding:'10px 40px'}}/>
+                                    <img key={index} src={img} alt="" width='180px'height='60px' style={{padding:'10px 40px'}}/>
                                 </div>
                             )
                         })
                     }
                         {
-                        marquee.map((img) => {
+                        marquee.map((img, index) => {
                             return (
                                 <div  >
-                                    <img src={img} alt="" width='180px' height='60px' style={{padding:'10px 40px'}}/>
+                                    <img key ={index}src={img} alt="" width='180px' height='60px' style={{padding:'10px 40px'}}/>
                                 </div>
                             )
                         })

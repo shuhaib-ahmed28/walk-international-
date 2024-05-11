@@ -8,6 +8,10 @@ body{
     /* display: none; */
     margin: 0;
     text-align: center;
+    padding-top: 115px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 70px;
 }
 nav{
     display: flex;
@@ -70,13 +74,14 @@ li{
 
 /* hero section */
 .anime{
-    height: 42px;
-    width: 750px;
+    height: 48px;
+    width: 910px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     padding: 3px;
+    margin-top:35px ;
     border-radius:10px;
     background-color: #013A8B;
     border: 2px solid #06a8ea;
@@ -86,13 +91,20 @@ li{
 .animewrapper{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 10px;
+ 
 } 
+.anihead{
+    display: flex;
+    align-items: center;
+}
 .anime>h1{
-    padding: 0 0 0 20px;
+    
+    /* padding-right: 60px; */
 }
 .anime>h4{
-    padding: 0 12px ;
+    padding-right: 60px;
+    
 }
 .herosection{
     background-color: #013A8B;
@@ -103,16 +115,25 @@ li{
     width: 1px;
     height: 40px;
     background-color: #0284c7;
+    margin: 0 40px 0 40px;
 }
+.searchsection{
+    
+    display: flex;
+    justify-content: center;
+}
+
 .herosearch{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90px;
-    width: 800px;
+    height: 82px;
+    width: 1150px;
     background-color: white;
     border-radius: 15px;
     border: #0284c7 2px solid;
+    margin: none;
+
 }
 .countrycard{
     width: 370px;
@@ -142,42 +163,15 @@ li{
     border-radius: 50%;
     z-index: 100;
     margin: 20px;
-    
 }
 
-/* .flagcontainer{
-    width: 95px;
-    background-color: blue;
-    height: 95px;
-    border-radius: 50%;
-   
-} */
 .flagImg{
     position: relative;
     left: 15px;
     top:28px;
 }
-/* 
-horizontal scroll */
-/* App.css */
 
-.horizontal-scroll-container {
-    width: 100%;
-    
-    overflow-x:scroll; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent items from wrapping */
 
-  }
-  
-  .scroll-content {
-    display: inline-block; /* Make the content scroll horizontally */
-  }
-  
-  .item {
-    display: inline-block;
-    width: 500px; /* Set width for each item */
-    height: 500px; /* Set height for each item */
-    background-color: #ccc; /* Add background color for visibility */
-    margin-right: 20px; /* Add some margin between items */
-  }
+
+
   
