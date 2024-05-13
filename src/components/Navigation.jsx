@@ -13,7 +13,7 @@ const Navigation = () => {
                     <ul>
                         <li>
                         
-                            <select name="" id="">
+                            <select name="" id="" className='navselect'>
                                 <option value="">Study Abroad</option>
                                 <option value="USA">USA</option>
                                 <option value="Canada">Canada</option>
@@ -26,7 +26,7 @@ const Navigation = () => {
                             </select>
                         </li>
                         <li>Course Finder</li>
-                        <li><select name="testprep" id="">
+                        <li><select name="testprep" id="" className='navselect'>
                             <option value="">Test Prep</option>
                             <option value="IELTS">IELTS</option>
                             <option value="TOFEL">TOFEL</option>

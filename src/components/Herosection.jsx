@@ -8,11 +8,12 @@ import { MdHeight } from 'react-icons/md';
 const Herosection = (Props) => {
     const searchstyle = {
         color: "white",
-        backgroundColor: "#013a8b",
-        width: "150px",
-        height: "60px",
-        marginLeft: "30px"
-
+        backgroundColor: "rgb(1 53 111)",
+        width: "175px",
+        height: "70px",
+        marginLeft: "34px",
+        fontSize:"19px",
+        fontWeight:"600"
     }
 
     return (
@@ -28,7 +29,7 @@ const Herosection = (Props) => {
             <div className='searchsection'>
                 <div className='herosearch'>
                     <select name="" id="">
-                        <option value="">USA</option>
+                        <option value="" className='optiontag'>USA</option>
                         <option value="">Canada</option>
                         <option value="">UK</option>
                         <option value="">Australia</option>
@@ -36,11 +37,11 @@ const Herosection = (Props) => {
                         <option value="">Ireland</option>
                         <option value="">France</option>
                         <option value="">Germany</option>
-                    </select><div style={{ height: "90px", width: "1px", backgroundColor: "gray" }}></div>
+                    </select><div style={{ height: "85px", width: "1px", backgroundColor: "gray", margin:"0 40px"}}></div>
                     <select name="" id="" placeholder="search country">
                         <option value="">Masters</option>
                         <option value="">Postgraduate Certificate</option>
-                    </select><div style={{ height: "90px", width: "1px", backgroundColor: "gray" }}></div>
+                    </select><div style={{ height: "85px", width: "1px", backgroundColor: "gray",margin:"0 40px" }}></div>
                     <select name="" id="">
                         <option value="">Aerospace Engineering </option>
                         <option value="">Architecture</option>

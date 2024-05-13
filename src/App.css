@@ -24,12 +24,17 @@ nav{
     background: linear-gradient(to bottom, #959da8, #013A8B);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
+    display: flex;
+    align-items: center;
 }
 ul{
     display: flex;
     list-style: none;
-    margin: 20px 20px 0 0;
+    align-items: center;
+}
+li{
+    margin: 0 12px;
+    font-size: ;
 }
 select{
     border: none;
@@ -71,6 +76,10 @@ li{
     color: #013A8B;
     font-weight: 500;
 }
+.navselect{
+    width:auto;
+    color: #01356F;
+}
 
 /* hero section */
 .anime{
@@ -98,10 +107,7 @@ li{
     display: flex;
     align-items: center;
 }
-.anime>h1{
-    
-    /* padding-right: 60px; */
-}
+
 .anime>h4{
     padding-right: 60px;
     
@@ -109,6 +115,8 @@ li{
 .herosection{
     background-color: #013A8B;
     color: white;
+    width: 100%;
+    max-height: 100vh;
     height: 100vh;
 }
 .line{
@@ -135,15 +143,27 @@ li{
     margin: none;
 
 }
+select{
+    background-color: white;
+    width: 250px;
+    height:40px;
+    font-size: 16px;
+    color:#082F49;
+}
+.countrysection{
+    text-align: center;
+    padding: 60px;
+    font-size: 36px;
+    color: #01356F;
+}
+
 .countrycard{
     width: 370px;
-}
-.countryimg{
-    max-width: 380px;
-    width: 400px;
+    font-size: 20px;
 }
 .countryname{
-    margin:2px 10px 10px 150px
+    text-align: center;
+    color: #01356F;
 }
 
 /* FEATURED SECTION */
