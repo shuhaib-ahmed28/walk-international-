@@ -117,7 +117,7 @@ li{
     color: white;
     width: 100%;
     max-height: 100vh;
-    height: 100vh;
+    height: 96vh;
 }
 .line{
     width: 1px;
@@ -131,6 +131,7 @@ li{
     justify-content: center;
 }
 
+
 .herosearch{
     display: flex;
     justify-content: center;
@@ -143,6 +144,27 @@ li{
     margin: none;
 
 }
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-25px);
+    }
+    
+    }
+
+.bounce{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 70px auto 0 auto;
+    animation-name:bounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
 select{
     background-color: white;
     width: 250px;
@@ -164,11 +186,18 @@ select{
 .countryname{
     text-align: center;
     color: #01356F;
+    font-size: 18px;
 }
 
 /* FEATURED SECTION */
 .featured{
     background-color: #F2F3F7;
+}
+.featurehead{
+    text-align: center;
+    padding: 70px;
+    font-size: 36px;
+    color: #01356F;
 }
 
 .parentcontainer{
@@ -176,12 +205,23 @@ select{
     justify-content: center;
     align-items: center;
 }
+.flagcontainer{
+    margin: 0 30px;
+}
 .circle{
     background-color: #fff;
-    width: 95px;
-    height: 95px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     z-index: 100;
+    margin: 20px;
+    box-shadow: 1px 2px rgb(218, 210, 210)
+}
+.bluecircle{
+    border: 2px solid #013A8B;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
     margin: 20px;
 }
 
@@ -189,6 +229,12 @@ select{
     position: relative;
     left: 15px;
     top:28px;
+}
+/* student result section */
+.resultsection{
+    width: 100vw;
+    height: 500px;
+    background-image: url();
 }
 
 

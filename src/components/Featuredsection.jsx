@@ -1,26 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { countryflag } from '../data/data';
 // import Carousel from './Carousel';
 
 
 const Featuredsection = () => {
+    const [active, setactive]=useState(null);
+    const handleclick=(index)=>{
+        // const newflag=[...active];
+        // newflag[index]=!newflag[index];
+        setactive(index)
+    }
     return (
         <div className='featured' >
             <div>
-                <h1>Top Featured Universities</h1>
+                <h1 className='featurehead' >Top Featured Universities</h1>
             </div>
             <div className="parentcontainer">
             {
-                countryflag.map((value)=>{
+                countryflag.map((value,index)=>{
                     return(
                        
-                        <div className="flagcontent" >
+                        <div className="flagcontent" key={index} >
                         <div className="flagcontainer">
-                            <div className="circle">
-                                <img className='flagImg' src={value.img} alt="" width='60px'/>
+                            <div className={active=== index? 'bluecircle' : 'circle'} onClick={()=>handleclick(index)}>
+                                <img className='flagImg' src={value.img} alt="" width='60px' />
                             </div>
                         </div>
-                            <h4 style={{display:'flex', justifyContent:'center'}} >{value.countryname}</h4>
+                            <p style={{display:'flex', justifyContent:'center'}} >{value.countryname}</p>
                         </div>
                        
                     );

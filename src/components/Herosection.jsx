@@ -70,7 +70,9 @@ const Herosection = (Props) => {
             <div className="mar">
                 <MarqueeImg />
             </div>
+            <div className="bounce">
 
+            </div>
         </div>
     );
 };
