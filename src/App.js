@@ -5,6 +5,7 @@ import Herosection from './components/Herosection';
 import Countries from './components/Countries';
 import Featuredsection from './components/Featuredsection';
 import Studentresult from './components/Studentresult';
+import Horizontalscroll from './components/Horizontalscroll';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Countries/>
       <Featuredsection/>
       <Studentresult/>
+      <Horizontalscroll/>
       
     </div>
   );

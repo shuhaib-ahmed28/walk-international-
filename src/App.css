@@ -3,6 +3,7 @@
 
 body{
     font-family: Sora;
+    overflow-x: hidden;
 }
 .herointro{
     /* display: none; */
@@ -34,7 +35,6 @@ ul{
 }
 li{
     margin: 0 12px;
-    font-size: ;
 }
 select{
     border: none;
@@ -247,6 +247,41 @@ select{
     color: black;
     font-size: 40px;
     padding: 40px 130px 0  ; 
+}
+.box{
+    color: #fff;
+    width: 40vw;
+    height: 70vh;
+    text-align: center;
+}
+
+.box:nth-child(even){
+    background-color: rgb(166, 185, 202);
+}
+.box:nth-child(odd){
+    background-color: rgb(70, 87, 102);
+}
+.page1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:320%;
+     margin: 40px 0;
+}
+main{
+    /* background-color: black; */
+    height:110vh
+}
+main > h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 38px;
+    color: #01356F;
+    margin: 0;
+}
+main>p{
+    text-align: center;
+    font-size: 20px;
 }
 
 
