@@ -4,6 +4,7 @@ import React from 'react';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 
 
+
 gsap.registerPlugin(ScrollTrigger)
 
 const Horizontalscroll = () => {
@@ -28,16 +29,54 @@ const Horizontalscroll = () => {
             <p>Steps To Make Your Way to the Dream University Abroad</p>
             <div className="page1">
             <div className="box"><h3>Step 1</h3>
-            <img src="" alt="" /></div>
-            <div className="box">2</div>
-            <div className="box">3</div>
-            <div className="box">4</div>
-            <div className="box">5</div>
-            <div className="box">6</div>
-            <div className="box">7</div>
-            <div className="box">8</div>
-            <div className="box">9</div>
-            <div className="box">10</div>
+            <img src="/images/horizontalsvgs/img1.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+            </div>
+            <div className="box"><h3>Step 2</h3>
+            <img src="/images/horizontalsvgs/img3.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 3</h3>
+            <img src="/images/horizontalsvgs/img4.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 4</h3>
+            <img src="/images/horizontalsvgs/img5.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 5</h3>
+            <img src="/images/horizontalsvgs/img6.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 6</h3>
+            <img src="/images/horizontalsvgs/img7.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 7</h3>
+            <img src="/images/horizontalsvgs/img8.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 8</h3>
+            <img src="/images/horizontalsvgs/img9.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 9</h3>
+            <img src="/images/horizontalsvgs/img10.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
+            <div className="box"><h3>Step 10</h3>
+            <img src="/images/horizontalsvgs/img11.svg" alt="" width="100px" height="100px"/>
+            <img src="/images/horizontalsvgs/hawkeye.svg" alt="" className='hawkeye'/>
+
+            </div>
             
            
            

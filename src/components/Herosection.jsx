@@ -70,8 +70,8 @@ const Herosection = (Props) => {
             <div className="mar">
                 <MarqueeImg />
             </div>
-            <div className="bounce">
-
+            <div style={{display:'flex', justifyContent:'center'}} >
+                <img src="/images/horizontalsvgs/img2.svg" alt="" className="bounce" />
             </div>
         </div>
     );
