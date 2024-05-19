@@ -283,9 +283,44 @@ main>p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 90px auto;
+    margin: 120px auto 0 ;
 }
-
+.hawkeye1{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto 0 ;
+}
+.head1{
+    font-size: 20px;
+    color:#01356F;
+}
+.head2{
+    font-size: 20px;
+    color:#01356F;
+    margin:40px auto 0;
+}
+.para1{
+    font-size: 20px;
+    color: black;
+    font-weight:400 ;
+}
+.para2{
+    font-size: 20px;
+    color: black;
+    font-weight:400 ;
+}
+hr{
+    border: none;
+    border-top: 3px dashed #01356F;
+    height: 3px;
+    background: none;
+    padding:;
+    
+    
+}
 
 
 

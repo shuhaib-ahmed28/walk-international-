@@ -1,9 +1,20 @@
 import React, { useState } from 'react';
 import { countryflag } from '../data/data';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 // import Carousel from './Carousel';
-
+gsap.registerPlugin(ScrollTrigger)
 
 const Featuredsection = () => {
+    useGSAP(()=>{
+        gsap.from(".circle",{
+            scale:0,
+            duration:2,
+            scrollTrigger:".circle"
+
+        })
+    })
     const [active, setactive]=useState(null);
     const handleclick=(index)=>{
         // const newflag=[...active];
