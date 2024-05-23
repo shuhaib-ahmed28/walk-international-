@@ -249,9 +249,10 @@ select{
 .box{
     color: #372c2c;
     width: 40vw;
-    height: 70vh;
+    height: 500px;
     text-align: center;
     /* background-color: #959da8; */
+    position: relative;
 }
 
 
@@ -284,6 +285,10 @@ main>p{
     justify-content: center;
     align-items: center;
     margin: 120px auto 0 ;
+    /* position: absolute;
+    z-index: 9999;
+    left: 255px ;
+    top: 116px; */
 }
 .hawkeye1{
     width: 25px;
@@ -291,7 +296,7 @@ main>p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 120px auto 0 ;
+    margin: 33px auto 0 ;
 }
 .head1{
     font-size: 20px;
@@ -317,12 +322,42 @@ hr{
     border-top: 3px dashed #01356F;
     height: 3px;
     background: none;
-    padding:;
-    
-    
+    margin: 0;
 }
+.head3{
+    font-size: 20px;
+    color:#01356F;
+    margin-top: 80px;
+}
+.hawkeye2{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 67px auto 0;
+}
+.step2btn{
+    width: 170px;
+    height: 54px;
+    border-radius: 18px;
+    font-size: 18px;
+    border: 1px solid #391952;
+    
 
-
+}
+.step2btn:hover path {
+    fill: #fff;
+}
+.step2btn:hover  {
+    background-color: #391952;
+    color: #fff;
+}
+.step2btn> svg{
+    width: 24px;
+    transform:rotate(270deg) ;
+   
+}
 
 
   

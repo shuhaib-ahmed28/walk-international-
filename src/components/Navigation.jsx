@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div>
             <nav>
-                <div className="brand"><h1>Walk International</h1></div>
+                <div className="brand"><img src="svg-gobbler.svg" alt="" /></div>
                 <div className="navwrapper">
                 <div className="navLinks">
                     <ul>
