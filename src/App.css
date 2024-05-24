@@ -22,9 +22,6 @@ nav{
 }
 .brand{
     margin-left: 15px;
-    background: linear-gradient(to bottom, #959da8, #013A8B);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     display: flex;
     align-items: center;
 }
