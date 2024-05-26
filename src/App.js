@@ -7,6 +7,7 @@ import Featuredsection from './components/Featuredsection';
 import Studentresult from './components/Studentresult';
 import Horizontalscroll from './components/Horizontalscroll';
 import Topcourses from './components/Topcourses';
+import Categories from './components/Categories';
 
 
 

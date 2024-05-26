@@ -102,18 +102,135 @@ export const topcourses = [
 },
 {
   img:"/images/Topcourses/Architecture.svg",
-  name:"Aerospace Engineering"
+  name:"Architecture"
 },
 {
   img:"/images/Topcourses/Artificial-Intelligence.svg",
   name:"Artificial Intelligence"
 },
 {
-  img:"/images/Topcourses/Artificial-Intelligence.svg",
-  name:"Artificial Intelligence"
+  img:"/images/Topcourses/Automotive-Engineering.svg",
+  name:"Automotive Engineering"
 },
 {
-  img:"/images/Topcourses/Artificial-Intelligence.svg",
-  name:"Artificial Intelligence"
+  img:"/images/Topcourses/Bio-Medical-Engineering.svg",
+  name:"Biomedical Engineering"
+},
+{
+  img:"/images/Topcourses/Biotechnology.svg",
+  name:"Biotechnology"
+},
+{
+  img:"/images/Topcourses/Business-Analytics.svg",
+  name:"Business Analytics"
+},
+{
+  img:"/images/Topcourses/Chemical-engineering.svg",
+  name:"chemical Engineering"
+},
+{
+  img:"/images/Topcourses/Civil-Engineering.svg",
+  name:"Civil Engineering"
+},
+{
+  img:"/images/Topcourses/Computer-Engineering.svg",
+  name:"Computer Engineering"
+},
+{
+  img:"/images/Topcourses/Data-Science.svg",
+  name:"Data Science"
+},
+{
+  img:"/images/Topcourses/Construction-Management.svg",
+  name:"Construction Management"
+},
+{
+  img:"/images/Topcourses/Cyber-Security.svg",
+  name:"Cyber Security"
+},
+
+{
+  img:"/images/Topcourses/Electrical-Engineering.svg",
+  name:"Electrical Engineering"
+},
+{
+  img:"/images/Topcourses/Engineering-Management.svg",
+  name:"Engineering Management"
 },
 ];
+
+export const finalcourses = [
+  {
+    img:"/images/Topcourses/Health-Care.svg",
+    name:"Health Care"
+  },
+  {
+    img:"/images/Topcourses/Industrial-Engineering.svg",
+    name:"Industrial Engineering"
+  },
+  {
+    img:"/images/Topcourses/Information-Management-Systems.svg",
+    name:"Information Management Systems"
+  },
+  {
+    img:"/images/Topcourses/International-Business.svg",
+    name:"International Business"
+  },
+  {
+    img:"/images/Topcourses/MBA.svg",
+    name:"MBA"
+  },
+  {
+    img:"/images/Topcourses/Manufacturing-Engineering.svg",
+    name:"Manufacturing Engineering"
+  },
+  {
+    img:"/images/Topcourses/Material-Science.svg",
+    name:"Material Science"
+  },
+  {
+    img:"/images/Topcourses/Mechanical-Engineering.svg",
+    name:"Mechanical Engineering"
+  },
+  {
+    img:"/images/Topcourses/Molecular-Science.svg",
+    name:"Molecular Engineering"
+  },
+  {
+    img:"/images/Topcourses/Network-Wireless-Communication.svg",
+    name:"Network & Wireless Communication"
+  },
+  {
+    img:"/images/Topcourses/PharmaceuticalCourses.svg",
+    name:"Pharmaceutical Courses"
+  },
+  {
+    img:"/images/Topcourses/Project-Management.svg",
+    name:"Project Management"
+  },
+  {
+    img:"/images/Topcourses/Robotics.svg",
+    name:"Robotics"
+  },
+  {
+    img:"/images/Topcourses/supply-Chain-Management.svg",
+    name:"Supply Chain Management"
+  },
+  {
+    img:"/images/Topcourses/Management.svg",
+    name:"Management"
+  },
+  {
+    img:"/images/Topcourses/LAW.svg",
+    name:"Law"
+  },
+  {
+    img:"/images/Topcourses/Accounts-and-Finance.svg",
+    name:"Accounts and finance"
+  },
+  {
+    img:"/images/Topcourses/Interdisciplinary.svg",
+    name:"Interdisciplinary"
+  },
+ 
+]

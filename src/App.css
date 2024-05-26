@@ -282,10 +282,7 @@ main>p{
     justify-content: center;
     align-items: center;
     margin: 120px auto 0 ;
-    /* position: absolute;
-    z-index: 9999;
-    left: 255px ;
-    top: 116px; */
+
 }
 .hawkeye1{
     width: 25px;
@@ -353,25 +350,56 @@ hr{
 .step2btn> svg{
     width: 24px;
     transform:rotate(270deg) ;
-   
 }
-.tcbox{
-    width: 20%;
-    height: 300px;
-    border: gray 1px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.tcpstr{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     
 }
-.tcstructure{
+.tcbox{
+    height: 220px;
+    border: rgba(128,128,128,0.3) 0.5px solid;
+    border-left: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* .tcstructure{
+
+} */
+
+.imgdiv{
+    margin: 50px auto 24px;
+}
+ .tcp{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #262626;
+    font-weight: 500;
+    font-size: 17px;
+} 
+.togglebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background-color: #fff;
+    color: #013A8B;
+    transition: box-shadow 0.3s ease-in-out;
 }
-.tcimg{
-    width: 90px;
-}
-
 
   
+
+.togglebtn svg{
+    width: 30px;
+}
