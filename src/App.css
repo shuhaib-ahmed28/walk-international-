@@ -355,6 +355,23 @@ hr{
     transform:rotate(270deg) ;
    
 }
+.tcbox{
+    width: 20%;
+    height: 300px;
+    border: gray 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tcstructure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tcimg{
+    width: 90px;
+}
 
 
   

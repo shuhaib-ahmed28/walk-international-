@@ -6,6 +6,7 @@ import Countries from './components/Countries';
 import Featuredsection from './components/Featuredsection';
 import Studentresult from './components/Studentresult';
 import Horizontalscroll from './components/Horizontalscroll';
+import Topcourses from './components/Topcourses';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Countries/>
       <Featuredsection/>
       <Studentresult/>
+      <Topcourses/>
       <Horizontalscroll/>
       
     </div>
