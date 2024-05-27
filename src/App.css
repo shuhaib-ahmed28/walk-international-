@@ -362,6 +362,7 @@ hr{
     border-left: none;
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -374,6 +375,13 @@ hr{
 .imgdiv{
     margin: 50px auto 24px;
 }
+.tchead{
+    margin: 80px 0 50px 130px;
+    /* text-align: center; */
+    font-size: 36px;
+    color: #01356F;
+}
+
  .tcp{
     display: flex;
     justify-content: center;
@@ -395,7 +403,7 @@ hr{
     width: 100%;
     background-color: #fff;
     color: #013A8B;
-    transition: box-shadow 0.3s ease-in-out;
+  
 }
 
   
@@ -403,3 +411,43 @@ hr{
 .togglebtn svg{
     width: 30px;
 }
+#section2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(/public/images/Topcourses/Google-reviews.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    position: relative;
+}
+
+
+.secimg{
+    width: 400px;
+    height: 600px;
+    border-radius: 0 150px 150px 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.secimg2{
+    width: 400px;
+    height: 600px;
+    border-radius: 150px 0 0 150px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+/* .rightanime{
+    width: 280px;
+    height: 160px;
+    background-color: #000;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 40px;
+} */
+
