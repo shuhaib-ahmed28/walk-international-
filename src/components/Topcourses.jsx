@@ -27,13 +27,13 @@ const Topcourses = () => {
 
             <div id='section2'>
                 <img src="/images/topcourses/Top-admits.png" alt=""  className='secimg'/>
+                {/* <div className="rightanime"></div>
                 <div className="rightanime"></div>
-                <div className="rightanime"></div>
-                <div className="rightanime"></div>
+                <div className="rightanime"></div> */}
                 <img src="/images/topcourses/Top-admits02.png" alt="" className='secimg2'/>
+                {/* <div className="leftanime"></div>
                 <div className="leftanime"></div>
-                <div className="leftanime"></div>
-                <div className="leftanime"></div>
+                <div className="leftanime"></div> */}
 
             </div>
         </div>
